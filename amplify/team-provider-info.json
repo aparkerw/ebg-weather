@@ -17,6 +17,15 @@
           "deploymentBucketName": "amplify-ebgweather-dev-83518-deployment",
           "s3Key": "amplify-builds/ebgweathertestlambda-6336387a537547446154-build.zip"
         }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2n30tehvm3cvx",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "ebgweather57278976": {}
       }
     }
   }
