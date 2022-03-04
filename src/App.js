@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import amplify from 'amplify';
+import { useState, useEffect } from 'react';
 
 function App() {
+
+  const [weatherJSON, setWeatherJSON] = useState({});
+
+  useEffect(() => {
+    setWeatherJSON({test: true});
+  },
+  [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>The current weather is: </h1>
+      <div>{JSON.stringify(weatherJSON)}</div>
     </div>
   );
 }

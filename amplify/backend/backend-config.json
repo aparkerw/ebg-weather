@@ -1,0 +1,9 @@
+{
+  "function": {
+    "ebgweathertestlambda": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  }
+}

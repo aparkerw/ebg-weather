@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ebgweather-dev-83518-authRole",
+      "UnauthRoleArn": "arn:aws:iam::349926410290:role/amplify-ebgweather-dev-83518-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::349926410290:role/amplify-ebgweather-dev-83518-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-ebgweather-dev-83518-deployment",
+      "UnauthRoleName": "amplify-ebgweather-dev-83518-unauthRole",
+      "StackName": "amplify-ebgweather-dev-83518",
+      "StackId": "arn:aws:cloudformation:us-east-1:349926410290:stack/amplify-ebgweather-dev-83518/f14e44a0-9bbf-11ec-9a73-0ec770ed3a79",
+      "AmplifyAppId": "d2n30tehvm3cvx"
+    },
+    "categories": {
+      "function": {
+        "ebgweathertestlambda": {
+          "deploymentBucketName": "amplify-ebgweather-dev-83518-deployment",
+          "s3Key": "amplify-builds/ebgweathertestlambda-6336387a537547446154-build.zip"
+        }
+      }
+    }
+  }
+}
